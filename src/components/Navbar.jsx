@@ -34,11 +34,7 @@ const Navbar = () => {
           {
             isAuthenticated &&
             <li>
-              <div style={{display:"flex" , flexDirection:"column", justifyContent:"space-between", alignItems:"center"}}>
-                <p>Welcome</p>
-              <p className='user_detail'>{user.name}</p>
-              </div>
-             
+              <p className='user_detail'>{user.name}</p> 
             </li>
           }
 
