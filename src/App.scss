@@ -22,7 +22,10 @@ h1 {
   color: rgb(24, 24, 29);
   font-size: 4rem;
   font-weight: 900;
-  transform: skewY(-10deg);
+}
+h1:hover{
+  transform: skewY(-2deg);
+  transition: 0.3s all ease-in-out;
 }
 
 h2 {
